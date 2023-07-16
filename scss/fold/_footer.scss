@@ -1,0 +1,14 @@
+footer {
+    width: 100%;
+    background-color: $color-one;
+    position: fixed;
+    bottom: 0;
+    border: 1px $color-three solid;
+
+
+    p {
+        font-weight: 600;
+        text-align: center;
+        color: $color-four;
+    }
+}

@@ -1,10 +1,13 @@
+<?php
+  include_once("helpers/url.php");
+?>
 <!DOCTYPE html>
 <html lang='pt-BR' itemscope itemtype='https://schema.org/WebSite'>
     <head>
         <!-- Informações da aplicação -->
         <meta charset='UTF-8'>
         <link rel='shortcut icon' href='#'>
-        <title> Nome da página </title>
+        <title> Churrascaria Dracena </title>
         <meta name='author' content='eduardokaykedasilva@gmail.com'>
         <meta name='description' content='Passe uma descrição do seu site.'>
 
@@ -12,7 +15,7 @@
         <meta name='robots' content='index, follow'>
 
         <!-- canonical: link da própria página, importante para evitar conteúdo duplicado na internet-->
-        <meta name='canonical' href='#'>
+        <meta name='canonical' href='https://churrascariadracenacolombo.com.br'>
 
         <!-- Google+, junto com itemscope e itemtype na tag html (https://web.dev/social-discovery/)-->
         <!-- Em content use o mesmo que a tag <title> -->
@@ -48,32 +51,17 @@
         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
 
         <!-- link -->
-        <link rel='stylesheet' href='#'>
+        <link rel='stylesheet' href='<?= $BASE_URL ?>css/style.css'>
         <script src='#' defer></script>
     </head>
     <body>
-        <header>
-        <!--Cabeçalho-->
-            <nav>
-                <!--Logo-->
-                <!--Barra de navegação com links (menu)-->
+        <header class="main_header">
+            <nav class="main_header_navigation">
+                <ul id="navbar">
+                    <li><a href="<?= $BASE_URL ?>index.php">Churrascaria</a></li>
+                    <li><a href="<?= $BASE_URL ?>menu.php">Cardápio</a></li>
+                    <li><a href="<?= $BASE_URL ?>environment.php">Ambiente</a></li>
+                    <li><a href="<?= $BASE_URL ?>location.php">Localização</a></li>
+                </ul>
             </nav>
         </header>
-        <main>
-            <!--Conteúdo principal-->
-            <h1>Título Principal</h1>
-            <p>Explicando o conteúdo da página</p>
-        </main>
-        <section>
-            <!--Seção secundária (ex: uma seção de posts)-->
-        </section>
-        <aside>
-            <!--Algum conteúdo na lateral do site (ex: barra de navegação lateral, enquete)-->
-        </aside>
-        <footer>
-            <!--Rodapé-->
-            <p>Informações de contato</p>
-            <p>Copyright</p>
-        </footer>
-    </body>
-</html>

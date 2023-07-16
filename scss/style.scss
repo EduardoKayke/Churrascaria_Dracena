@@ -1,0 +1,48 @@
+// Reset
+@import "reset/reset";
+
+// Fonts (This is the main source of the application)
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    font-family: 'EB Garamond', serif;
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    /* src: url(fonts/EB_Garamond/EBGaramond-Italic-VariableFont_wght.ttf); */
+    /* src: url(fonts/EB_Garamond/EBGaramond-VariableFont_wght.ttf); */
+    /* src: url(fonts/EB_Garamond/static/EBGaramond-Bold.ttf); */
+    /* src: url(fonts/EB_Garamond/static/EBGaramond-BoldItalic.ttf); */
+    /* src: url(fonts/EB_Garamond/static/EBGaramond-ExtraBold.ttf); */
+    /* src: url(fonts/EB_Garamond/static/EBGaramond-ExtraBoldItalic.ttf); */
+    /* src: url(fonts/EB_Garamond/static/EBGaramond-Italic.ttf); */
+    src: url(fonts/EB_Garamond/static/EBGaramond-Medium.ttf);
+    /* src: url(fonts/EB_Garamond/static/EBGaramond-MediumItalic.ttf); */
+    /* src: url(fonts/EB_Garamond/static/EBGaramond-Regular.ttf); */
+    /* src: url(fonts/EB_Garamond/static/EBGaramond-SemiBold.ttf); */
+    /* src: url(fonts/EB_Garamond/static/EBGaramond-SemiBoldItalic.ttf); */
+    font-weight: 500;
+}
+
+// Variables
+@import "variables";
+
+// Components
+@import "components/buttons";
+@import "components/_box_facebook";
+
+
+// Aplication (Header, Main Content, Footer)
+
+// Header
+@import "fold/header";
+
+// Main Content
+@import "home/index";
+@import "home/menu";
+@import "home/environment";
+@import "home/location";
+
+// Footer
+@import "fold/footer";
