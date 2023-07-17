@@ -6,7 +6,7 @@
     <head>
         <!-- Informações da aplicação -->
         <meta charset='UTF-8'>
-        <link rel='shortcut icon' href='#'>
+        <link rel='shortcut icon' href='<?= $BASE_URL ?>source/icons/icons8-prato-64.png'>
         <title> Churrascaria Dracena </title>
         <meta name='author' content='eduardokaykedasilva@gmail.com'>
         <meta name='description' content='Passe uma descrição do seu site.'>

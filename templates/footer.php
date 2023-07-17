@@ -3,7 +3,7 @@
     </div>
     <footer>
       <div>
-        <p>Churrascaria Dracena &copy; 2023</p>
+        <p>Churrascaria Dracena &copy; 2023 | Icons and images by <a target="_blank" href="https://icons8.com">Icons8</a></p>
       </div>
     </footer>
   </body>
