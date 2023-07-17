@@ -6,52 +6,56 @@ body {
 }
 
 .main_index {
-    width: $width-content;
-    padding-top: 100px;
+    width: 100%;
+    padding-top: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     
-    .main_index_content {
-        width: $width-content;
-        margin: 0 auto;
-        padding: 50px 0;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
+    article {
+        width: 100%;
 
-        .box_img {
-            padding: 20px;
+        header {
+            background-image: url("../source/images/food.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 100%;
+            width: 100%;
+            height: 300px;
             display: flex;
             align-items: center;
-            justify-content: space-around;
-    
-            img {
-                width: 300px;
-                height: 300px;
-                border-radius: 50%;
-                -moz-border-radius: 50%;
-                -webkit-border-radius: 50%;
-                box-shadow: 5px 5px 10px;
-                border: 2px $color-four solid;
-                margin: 10px;
+            justify-content: center;
+            flex-direction: column;
+            margin-bottom: 40px;
+            box-shadow: 0 0 10px 0;
+
+            h1 {
+                font-size: 4em;
+            }
+
+            p {
+                font-size: 2em;
+                font-weight: 600;
             }
         }
+    }
 
-        h1 {
-            margin-bottom: 10px;
-        }
+    .box_img {
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
 
-        h2 {
-            margin-bottom: 40px;
-        }
-
-        p {
-            font-size: 1.3em;
-            width: 80%;
-            margin-bottom: 20px;
-            text-align: center;
+        img {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
+            box-shadow: 5px 5px 10px;
+            border: 2px $color-four solid;
+            margin: 10px;
         }
     }
 }
