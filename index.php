@@ -12,6 +12,18 @@
                     <img class="img_size_2" src="<?= $BASE_URL ?>source/images/foto20.jpg" alt="Imagem Buffet">
                     <img class="img_size_3" src="<?= $BASE_URL ?>source/images/foto18.jpg" alt="Imagem Buffet">
                 </section>
+                <section class="box_flavor">
+                    <img src="<?= $BASE_URL ?>source/images/food1.jpg" alt="Imagem de Carne">
+                    <div class="box_text_flavor">
+                        <h2>Sabor</h2>
+                        <p>
+                        O segredo do sucesso da Churrascaria Dracena está, sem dúvida, na qualidade de suas carnes. Selecionando os melhores cortes e investindo em fornecedores confiáveis, a casa se destaca por servir carnes suculentas e saborosas, preparadas com maestria. O tradicional churrasco brasileiro é a especialidade, mas o restaurante também oferece uma variedade de pratos que agradam a todos os gostos, desde opções de saladas frescas e acompanhamentos até pratos quentes irresistíveis.
+                        </p>
+                    </div>
+                </section>
+                <section class="box_text_team">
+                    
+                </section>
                 <!-- <section>
                     <div class="section_content">
                         <div class="box_text">
