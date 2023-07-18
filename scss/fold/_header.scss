@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0 10px 0;
+    box-shadow: 0px 5px 15px;
     position: fixed;
     top: 0;
     
@@ -34,7 +34,7 @@
                 font-weight: 700;
         
                 &:hover {
-                    color: $color-four;
+                    color: red;
                 }
             }
         }
