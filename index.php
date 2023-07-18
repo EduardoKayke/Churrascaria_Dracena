@@ -17,33 +17,20 @@
                     <div class="box_text_flavor">
                         <h2>Sabor</h2>
                         <p>
-                        O segredo do sucesso da Churrascaria Dracena está, sem dúvida, na qualidade de suas carnes. Selecionando os melhores cortes e investindo em fornecedores confiáveis, a casa se destaca por servir carnes suculentas e saborosas, preparadas com maestria. O tradicional churrasco brasileiro é a especialidade, mas o restaurante também oferece uma variedade de pratos que agradam a todos os gostos, desde opções de saladas frescas e acompanhamentos até pratos quentes irresistíveis.
+                            O segredo do sucesso da Churrascaria Dracena está, sem dúvida, na qualidade de suas carnes. Selecionando os melhores cortes e investindo em fornecedores confiáveis, a casa se destaca por servir carnes suculentas e saborosas, preparadas com maestria. O tradicional churrasco brasileiro é a especialidade, mas o restaurante também oferece uma variedade de pratos que agradam a todos os gostos, desde opções de saladas frescas e acompanhamentos até pratos quentes irresistíveis.
                         </p>
                     </div>
                 </section>
-                <section class="box_text_team">
-                    
-                </section>
-                <!-- <section>
-                    <div class="section_content">
-                        <div class="box_text">
-                            <h2>Sabor</h2>
-                            <p>
-                            O segredo do sucesso da Churrascaria Dracena está, sem dúvida, na qualidade de suas carnes. Selecionando os melhores cortes e investindo em fornecedores confiáveis, a casa se destaca por servir carnes suculentas e saborosas, preparadas com maestria. O tradicional churrasco brasileiro é a especialidade, mas o restaurante também oferece uma variedade de pratos que agradam a todos os gostos, desde opções de saladas frescas e acompanhamentos até pratos quentes irresistíveis.
-                            </p>
-                        </div>
-                    </div>
-                </section> -->
-                <!-- <section>
-                    <img src="<?= $BASE_URL ?>source/images/foto23.jpg" alt="Sabor">
-                    <div class="box_text">
-                        <h2>Equipe</h2>
+                <section class="box_quality">
+                    <img src="<?= $BASE_URL ?>source/images/food.jpg" alt="Imagem de Carne">
+                    <div class="box_text_quality">
+                        <h2>Qualidade</h2>
                         <p>
                             Além do churrasco impecável, a Churrascaria Dracena também é reconhecida por sua equipe dedicada de profissionais. Os churrasqueiros são verdadeiros artistas do fogo, dominando técnicas ancestrais para trazer o máximo sabor e suculência às carnes. A equipe de garçons é atenciosa e conhecedora do cardápio, proporcionando uma experiência personalizada a cada cliente que passa por ali.
                         </p>
                     </div>
                 </section>
-                <section>
+                <!-- <section>
                     <div class="box_img">
                         <img src="<?= $BASE_URL ?>source/images/foto23.jpg" alt="Sabor">
                     </div>
@@ -66,16 +53,6 @@
                     </div>
                 </section> -->
             </article>
-            <!-- <div class="box_img">
-                <img src="<?= $BASE_URL ?>source/images/foto23.jpg" alt="Churrascaria Dracena">
-                <img src="<?= $BASE_URL ?>source/images/foto24.jpg" alt="Churrascaria Dracena">
-                <img src="<?= $BASE_URL ?>source/images/foto26.jpg" alt="Churrascaria Dracena">
-            </div>
-            <div class="box_img">
-                <img src="<?= $BASE_URL ?>source/images/foto20.jpg" alt="Churrascaria Dracena">
-                <img src="<?= $BASE_URL ?>source/images/foto21.jpg" alt="Churrascaria Dracena">
-                <img src="<?= $BASE_URL ?>source/images/foto17.jpg" alt="Churrascaria Dracena">
-            </div> -->
         </main>
 <?php
     include_once("./templates/footer.php"); 

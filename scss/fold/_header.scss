@@ -20,10 +20,9 @@
 
         ul {
             display: flex;
-            flex-wrap: wrap;
-            list-style: none;
             align-items: center;
             justify-items: center;
+            list-style: none;
             border-bottom: 2px $color-three solid;
             
             a {
@@ -32,6 +31,10 @@
                 text-decoration: none;
                 font-size: 1.5em;
                 font-weight: 700;
+
+                @media (max-width: 580px) {
+                    font-size: 1.2em;
+                }
         
                 &:hover {
                     color: red;
