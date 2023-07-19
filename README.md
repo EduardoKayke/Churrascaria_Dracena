@@ -1,5 +1,5 @@
-# Acesse agora o projeto online! (Ainda não está no ar. Projeto em construção)
-- Acesse <a href="#">Churrascaria Dracena</a> para ver o projeto online!
+# Acesse agora o projeto online!
+- Acesse <a href="#">Ainda não está no ar. Projeto em construção</a> para ver o projeto online!
 
 ## Churrascaria Dracena
 _Essa aplicação se deu início como um trabalho freelancer que fiz para a Churrascaria Dracena, onde me permitiram manter o código público. 
