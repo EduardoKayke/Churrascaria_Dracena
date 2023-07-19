@@ -102,7 +102,7 @@ body {
             .img_size_1 {
                 width: 400px;
                 height: 300px;
-                box-shadow: 6px 6px 15px black;
+                box-shadow: 10px 10px 15px black;
                 border: 2px solid black;
                 border-radius: 80px 80px 10px 80px;
                 -moz-border-radius: 80px 80px 10px 80px;
@@ -120,7 +120,7 @@ body {
             .img_size_2 {
                 width: 500px;
                 height: 400px;
-                box-shadow: 6px 6px 15px black;
+                box-shadow: 10px 10px 15px black;
                 border: 2px solid black;
                 border-radius: 10px 80px 10px 80px;
                 -moz-border-radius: 10px 80px 10px 80px;
@@ -143,7 +143,7 @@ body {
             .img_size_3 {
                 width: 400px;
                 height: 300px;
-                box-shadow: 6px 6px 15px black;
+                box-shadow: 10px 10px 15px black;
                 border: 2px solid black;
                 border-radius: 10px 80px 80px 80px;
                 -moz-border-radius: 10px 80px 80px 80px;
@@ -229,8 +229,6 @@ body {
         .box_quality {
             width: 100%;
             height: 700px;
-            border: 1px solid black;
-            box-shadow: 0px 5px 15px black;
             display: flex;
             align-items: center;
             text-align: left;
@@ -285,7 +283,147 @@ body {
                     margin-bottom: 20px;
                     font-size: 3em;
                     color: #000;
-                    text-shadow: 0.7px 0.7px 0.7px $color-one;
+                    box-shadow: 0px 2px 0px black;
+                    border-bottom: 2px solid $color-one;
+                }
+    
+                p {
+                    font-size: 1.3em;
+                    font-weight: 500;
+                    color: #000;
+                    text-shadow: 0.7px 0.7px 0.7px black;
+                }
+            }
+        }
+
+        .box_fraternity {
+            width: 100%;
+            height: 500px;
+            background: $color-three;
+            border: 1px solid black;
+            box-shadow: 0px 5px 15px black;
+            display: flex;
+            align-items: center;
+            text-align: left;
+            justify-content: center;
+            flex-direction: row;
+
+            @media (max-width: 1200px) {
+                height: 800px;
+                flex-direction: column-reverse;
+            }
+
+            @media (max-width: 635px) {
+                height: 700px;
+                flex-direction: column-reverse;
+            }
+
+            @media (max-width: 635px) {
+                height: 750px;
+                flex-direction: column-reverse;
+            }
+
+            img {
+                width: 600px;
+                height: 400px;
+                box-shadow: 0px 5px 15px black;
+
+                @media (max-width: 1200px) {
+                    margin-top: 50px;
+                }
+
+                @media (max-width: 635px) {
+                    margin-top: 50px;
+                    width: 400px;
+                    height: 250px;
+                }
+            }
+
+            .box_text_fraternity {
+                width: 500px;
+                margin-left: 60px;
+
+                @media (max-width: 1200px) {
+                    width: 80%;
+                    margin-left: 0px;
+                }
+
+                h2 {
+                    width: 100%;
+                    margin-bottom: 20px;
+                    font-size: 3em;
+                    color: #FFF;
+                    text-shadow: 2px 2px 2px black;
+                    box-shadow: 0px 2px 0px black;
+                    border-bottom: 2px solid $color-one;
+                }
+    
+                p {
+                    font-size: 1.3em;
+                    font-weight: 500;
+                    color: #FFF;
+                    text-shadow: 2px 2px 2px black;
+                }
+            }
+        }
+
+        .box_tradition {
+            width: 100%;
+            height: 700px;
+            display: flex;
+            align-items: center;
+            text-align: left;
+            justify-content: center;
+            flex-direction: row-reverse;
+
+            @media (max-width: 1200px) {
+                height: 800px;
+                flex-direction: column-reverse;
+            }
+
+            @media (max-width: 635px) {
+                height: 700px;
+                flex-direction: column-reverse;
+            }
+
+            @media (max-width: 635px) {
+                height: 750px;
+                flex-direction: column-reverse;
+            }
+
+            img {
+                width: 600px;
+                height: 400px;
+                box-shadow: 0px 5px 15px black;
+
+                @media (max-width: 1200px) {
+                    margin-top: 50px;
+                }
+
+                @media (max-width: 635px) {
+                    margin-top: 50px;
+                    width: 400px;
+                    height: 250px;
+                }
+            }
+
+            .box_text_tradition {
+                width: 500px;
+                margin-right: 60px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                @media (max-width: 1200px) {
+                    width: 80%;
+                    margin-right: 0px;
+                }
+
+                h2 {
+                    width: 100%;
+                    margin-bottom: 20px;
+                    font-size: 3em;
+                    color: #000;
                     box-shadow: 0px 2px 0px black;
                     border-bottom: 2px solid $color-one;
                 }
