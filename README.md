@@ -3,7 +3,7 @@
 
 ## Churrascaria Dracena
 _Essa aplicação se deu início como um trabalho freelancer que fiz para a Churrascaria Dracena, onde me permitiram manter o código público. 
-O Sistema Web criado é original e possui [MIT License](https://github.com/EduardoKayke/Churrascaria_Dracena/blob/main/LICENSE).
+O Sistema Web criado é original e possui [MIT License](https://github.com/EduardoKayke/Churrascaria_Dracena/blob/main/LICENSE)._
 
 
 ### O que a aplicação faz?
@@ -37,9 +37,6 @@ O Sistema Web criado é original e possui [MIT License](https://github.com/Eduar
 __OBS: Talvez você tenha que adicionar o caminho do PHP no path do sistema, para que o PHP seja reconhecido pelo sistema operacional.__
 
 ## Imagens do Projeto
-Página (Churrascaria Dracena)
 ![em breve](source/readme/Screenshot_2.png)
-Página (Churrascaria Dracena)
 ![em breve](source/readme/Screenshot_1.png)
-Página (Churrascaria Dracena)
 ![em breve](source/readme/Screenshot_3.png)
